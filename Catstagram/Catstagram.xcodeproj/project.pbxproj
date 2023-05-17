@@ -13,6 +13,7 @@
 		AFDD64F32A13DBD200A4B06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDD64F22A13DBD200A4B06F /* Assets.xcassets */; };
 		AFDD64F62A13DBD200A4B06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD64F42A13DBD200A4B06F /* LaunchScreen.storyboard */; };
 		AFDD64FE2A13E5E100A4B06F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD64FD2A13E5E100A4B06F /* LoginViewController.swift */; };
+		AFDD65002A15327F00A4B06F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD64FF2A15327F00A4B06F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AFDD64F52A13DBD200A4B06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFDD64F72A13DBD200A4B06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFDD64FD2A13E5E100A4B06F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFDD64FF2A15327F00A4B06F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AFDD64E92A13DBD200A4B06F /* AppDelegate.swift */,
 				AFDD64EB2A13DBD200A4B06F /* SceneDelegate.swift */,
 				AFDD64EF2A13DBD200A4B06F /* Main.storyboard */,
+				AFDD64FF2A15327F00A4B06F /* RegisterViewController.swift */,
 				AFDD64FD2A13E5E100A4B06F /* LoginViewController.swift */,
 				AFDD64F22A13DBD200A4B06F /* Assets.xcassets */,
 				AFDD64F42A13DBD200A4B06F /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				AFDD64FE2A13E5E100A4B06F /* LoginViewController.swift in Sources */,
 				AFDD64EA2A13DBD200A4B06F /* AppDelegate.swift in Sources */,
 				AFDD64EC2A13DBD200A4B06F /* SceneDelegate.swift in Sources */,
+				AFDD65002A15327F00A4B06F /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
