@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF28B2652A1D23DD002BF0A3 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF28B2642A1D23DD002BF0A3 /* Color+Extension.swift */; };
 		AFDD64EA2A13DBD200A4B06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD64E92A13DBD200A4B06F /* AppDelegate.swift */; };
 		AFDD64EC2A13DBD200A4B06F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD64EB2A13DBD200A4B06F /* SceneDelegate.swift */; };
 		AFDD64F12A13DBD200A4B06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDD64EF2A13DBD200A4B06F /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF28B2642A1D23DD002BF0A3 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		AFDD64E62A13DBD200A4B06F /* Catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDD64E92A13DBD200A4B06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDD64EB2A13DBD200A4B06F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				AFDD64E92A13DBD200A4B06F /* AppDelegate.swift */,
 				AFDD64EB2A13DBD200A4B06F /* SceneDelegate.swift */,
+				AF28B2642A1D23DD002BF0A3 /* Color+Extension.swift */,
 				AFDD64EF2A13DBD200A4B06F /* Main.storyboard */,
 				AFDD64FD2A13E5E100A4B06F /* LoginViewController.swift */,
 				AFDD64FF2A15327F00A4B06F /* RegisterViewController.swift */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFDD64FE2A13E5E100A4B06F /* LoginViewController.swift in Sources */,
+				AF28B2652A1D23DD002BF0A3 /* Color+Extension.swift in Sources */,
 				AFDD64EA2A13DBD200A4B06F /* AppDelegate.swift in Sources */,
 				AFDD64EC2A13DBD200A4B06F /* SceneDelegate.swift in Sources */,
 				AFDD65002A15327F00A4B06F /* RegisterViewController.swift in Sources */,

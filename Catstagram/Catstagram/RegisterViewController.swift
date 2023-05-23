@@ -90,10 +90,17 @@ class RegisterViewController: UIViewController {
     // 사용자가 입력한 회원정보를 확인하고 -> UI 구성을 확인
     private func validateUserInfo() {
         
-        if isValidEmail && isValidName && isValidNickname && isValidPassword {
-            self.signupButton.backgroundColor = UIColor.myCustomColor
+        if isValidEmail
+            && isValidName
+            && isValidNickname
+            && isValidPassword {
+            
+            self.signupButton.backgroundColor = UIColor.facebookColor
+            
         } else {
-            self.signupButton.backgroundColor = UIColor(red: 198/255, green: 222/255, blue: 250/255, alpha: 1)
+            
+            self.signupButton.backgroundColor = UIColor.disabledButtonColor
+            
         }
     }
 
@@ -116,9 +123,4 @@ extension String {
         let emailTest = NSPredicate(format: "SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: self)
     }
-}
-
-
-extension UIColor {
-    static let myCustomColor = UIColor(named: "facebookColor")
 }
