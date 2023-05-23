@@ -287,6 +287,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="Q1j-mB-2Gc" id="tEN-IQ-VOE"/>
+                        <outlet property="nameTextField" destination="iTB-Ap-WEE" id="RiA-bk-y9u"/>
+                        <outlet property="nicknameTextField" destination="PJ1-9C-EcJ" id="HUL-n2-SDG"/>
+                        <outlet property="passwordTextField" destination="t5Q-wo-W2U" id="9up-8p-5PN"/>
                         <outlet property="signupButton" destination="GbQ-zD-86i" id="WFL-x8-u0c"/>
                     </connections>
                 </viewController>

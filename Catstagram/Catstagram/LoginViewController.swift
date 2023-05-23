@@ -39,11 +39,10 @@ class LoginViewController: UIViewController {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let registerViewController = storyboard.instantiateViewController(withIdentifier: "RegisterVC") as! RegisterViewController
-//        self.present(registerViewController, animated: true)
-        
         self.navigationController?.pushViewController(registerViewController, animated: true)
         
     }
-    
+        
+  
     
 }

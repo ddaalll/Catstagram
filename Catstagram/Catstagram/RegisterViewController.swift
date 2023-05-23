@@ -91,7 +91,7 @@ class RegisterViewController: UIViewController {
     private func validateUserInfo() {
         
         if isValidEmail && isValidName && isValidNickname && isValidPassword {
-            self.signupButton.backgroundColor = UIColor(red: 65/255, green: 147/255, blue: 239/255, alpha: 1)
+            self.signupButton.backgroundColor = UIColor.myCustomColor
         } else {
             self.signupButton.backgroundColor = UIColor(red: 198/255, green: 222/255, blue: 250/255, alpha: 1)
         }
@@ -116,4 +116,9 @@ extension String {
         let emailTest = NSPredicate(format: "SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: self)
     }
+}
+
+
+extension UIColor {
+    static let myCustomColor = UIColor(named: "facebookColor")
 }
